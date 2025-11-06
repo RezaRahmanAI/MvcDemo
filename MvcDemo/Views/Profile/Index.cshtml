@@ -1,0 +1,30 @@
+﻿@model List<MvcDemo.Models.User>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Profile</h2>
+<h1>Welcome to my Profile Page</h1>
+
+
+<table border="1">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Email</th>
+        </tr>
+
+    @foreach(var i in Model)
+            {
+                <tr>
+                    <td>@i.Id</td>
+                    <td>@i.Name</td>
+                    <td>@i.Email</td>
+                </tr>
+            }
+
+</table>
+
+<p>
+    @Html.ActionLink("Social Profile", "Social", "Profile") </p>
+
