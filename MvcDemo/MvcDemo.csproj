@@ -183,6 +183,7 @@
     <Content Include="Views\Home\Gallary.cshtml" />
     <Content Include="Views\Profile\Index.cshtml" />
     <Content Include="Views\Profile\Social.cshtml" />
+    <Content Include="Views\Profile\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
